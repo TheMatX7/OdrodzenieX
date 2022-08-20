@@ -1,0 +1,130 @@
+<html>
+<header>
+<title>AlfaGroup</title>
+<center><img src="jpg/logo.jpg" alt="LOGO"></center>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<hr style=width:100%>
+<hr style=width:70%>
+<hr style=width:50%>
+<hr style=width:25%>
+
+<style type="text/css">
+#panel { 
+	display:none;
+	width:300px; 
+	height:100%; 
+	position:fixed; 
+	overflow-y:auto;
+	z-index:1001; 
+	top:0; 
+	right:-300px;
+	background-color:#f7f7f7; 
+}
+#button-hide-panel { display:none; }
+</style>
+</head>
+<body>
+<center>
+<br>
+<hr>
+<a id="button-show-panel" href="#"><span style="font-size: x-large"><font color="white">Pokaż panel menu</span></a></font>
+<a id="button-hide-panel" href="#"><span style="font-size: x-large"><font color="white">Ukryj panel menu</span></a></font>
+<hr>
+</center>
+<div id="panel">
+	<ul>
+<img src="jpg/menu.jpg" alt="LOGO">
+<span style="font-size: x-large">
+<br><li><a href="index.html">Strona główna</a></li><br>
+<li><a href="Ankieta.html">Ankieta (02.07.2022r)</a></li><br>
+<li><a href="odrodzenie.html">Odrodzenie (20.08.2022r)</a></li><br>
+</span>
+	</ul>
+</div>
+<script>
+$(document).ready(function()
+{
+	$("#button-show-panel").click(function(){ 
+		$('#panel').show().animate({"right":"+=300px"},200);
+		$("#button-hide-panel").show();
+		$("#button-show-panel").hide();
+	});
+	$("#button-hide-panel").click(function(){ 
+		$('#panel').animate({"right":"-=300px"},200);
+		$("#button-hide-panel").hide(); 
+		$("#button-show-panel").show();
+	});	
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+<body background="jpg/tlo32.jpg">
+<center><h2><font color="white">Alfa 2.0<br></h2>
+<hr>
+
+<form action="https://mail.google.com">
+<p>Pytania kierujcie na gmail: <br>
+<font color="red">groupalpha959@gmail.com</font>
+ </p><br>
+<input type="submit" value="GMAIL" />
+</form>
+
+<form action="https://wp.pl">
+<p><br>
+<input type="submit" value="WP" />
+</form>
+
+<form action="https://onet.pl">
+<p><br>
+<input type="submit" value="ONET" />
+</center>
+</form>
+<hr>
+
+<br>
+
+
+
+<br>
+</center>
+<center>
+<h2><font color="aqua">
+
+<marquee direction="right" width="30px">_-_-_</marquee>
+_-_-_Zadanie_-_-_
+<marquee width="30px">_-_-_</marquee>
+
+</h2>
+
+<h3><center><h3><font color="red">Wasze zadanie</a></h3></font>
+
+
+
+<font color="white">Witajcie Alfa. Waszym pierwszym zadaniem w ALFA 2.0 jest znalezienie nowych rekrutów do naszej grupy. <br> Każdy z was ma za zadanie znaleźć przynajmniej 10 osób i dodać ich do <font color="red">PIERWSZEJ</font> grupy alfa na messenger. <br> Za waszą prace zostaniecie rozliczeni - już niedługo w Alfie pojawią się stopnie(takie jak stopnie wojskowe). <br> Powodzenia Alfa.
+
+<br>
+<br>
+<br>
+
+
+
+</center>
+
+
+<hr style=width:25%>
+<hr style=width:50%>
+<hr style=width:70%>
+<hr style=width:100%>
+<h4><center><font color="white">Strona została stworzona dnia 20.08.2022r przez <i>AlfaGroup2.0</i></h4>
+
+</header>
+</html>
